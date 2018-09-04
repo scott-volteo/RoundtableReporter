@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_user" label="Participant" max_length="40" name="x_snc_roundtable_1_participant" type="collection">
+        <element label="Event moderator" max_length="40" name="event_moderator" type="boolean"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Roundtable event" max_length="32" name="roundtable_event" reference="x_snc_roundtable_1_event" type="reference"/>
+        <index name="index">
+            <element name="roundtable_event"/>
+        </index>
+    </element>
+</database>

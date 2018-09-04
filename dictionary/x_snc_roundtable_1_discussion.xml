@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Discussion" max_length="40" name="x_snc_roundtable_1_discussion" type="collection">
+        <element label="Agenda Item" max_length="32" name="agenda_item" reference="x_snc_roundtable_1_agenda_item" type="reference"/>
+        <element label="Discussion" max_length="4000" name="discussion" type="journal"/>
+        <element label="Discussion inpput" max_length="4000" name="discussion_inpput" type="journal_input"/>
+        <element label="Discussion Listing" max_length="4000" name="discussion_listing" type="journal_list"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="agenda_item"/>
+        </index>
+    </element>
+</database>

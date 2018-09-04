@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="6e099aca4fd06300a91770f24210c732" sys_domain="global" table="x_snc_roundtable_1_agenda_item" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-09-03 21:08:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ea09daca4fd06300a91770f24210c778</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_roundtable_1_agenda_item" name="x_snc_roundtable_1_agenda_item" sys_domain="global" view="Default view">6e099aca4fd06300a91770f24210c732</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_roundtable_1_agenda_item" sys_domain="global" view="Default view">45d75e8a4fd06300a91770f24210c70c</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-09-03 21:08:20</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-09-04 14:32:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>851886124f1c6300a91770f24210c77b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_roundtable_1_agenda_item" name="x_snc_roundtable_1_agenda_item" sys_domain="global" view="Default view">6e099aca4fd06300a91770f24210c732</sys_ui_form>
+            <sys_ui_section caption="Discusson" display_value="Discusson" name="x_snc_roundtable_1_agenda_item" sys_domain="global" view="Default view">cd1886124f1c6300a91770f24210c779</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-09-04 14:32:42</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_snc_roundtable_1_agenda_item</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-09-03 21:08:20</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6e099aca4fd06300a91770f24210c732</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_roundtable_1_agenda_item</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Roundtable Reporter" source="x_snc_roundtable_1">e7ca4a824fd06300a91770f24210c730</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Roundtable Reporter">e7ca4a824fd06300a91770f24210c730</sys_scope>
+            <sys_update_name>sys_ui_form_sections_6e099aca4fd06300a91770f24210c732</sys_update_name>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-09-03 21:08:20</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
