@@ -9,7 +9,7 @@
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Participants" max_length="4000" name="participants" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="glide_list"/>
         <element label="Rules and working procedures" max_length="3000" name="rules_and_working_procedures" type="string"/>
-        <element display="true" label="Topic" max_length="3000" name="topic" read_only="true" type="string"/>
+        <element display="true" label="Topic" max_length="3000" name="topic" type="string"/>
         <index name="index">
             <element name="event_location"/>
         </index>

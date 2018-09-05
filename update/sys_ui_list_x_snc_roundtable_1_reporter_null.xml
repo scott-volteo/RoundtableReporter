@@ -50,16 +50,16 @@
             <average_value>false</average_value>
             <element>sj_created</element>
             <list_id display_value="x_snc_roundtable_1_reporter" element="NULL" name="x_snc_roundtable_1_reporter" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">1b03ef1a4fdc6300a91770f24210c73a</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
+            <max_value>true</max_value>
+            <min_value>true</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>tom.cullen</sys_created_by>
             <sys_created_on>2018-09-04 21:10:11</sys_created_on>
             <sys_id>1703ef1a4fdc6300a91770f24210c73b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>tom.cullen</sys_updated_by>
-            <sys_updated_on>2018-09-04 21:10:11</sys_updated_on>
+            <sys_updated_on>2018-09-05 14:25:41</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
