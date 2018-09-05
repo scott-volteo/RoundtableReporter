@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_snc_roundtable_1_event">freeze=true^EQ<item endquery="false" field="freeze" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Freeze Event Information</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2018-09-04 17:39:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>db92fe9a4f5c6300a91770f24210c773</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Freeze Event Information</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Roundtable Reporter" source="x_snc_roundtable_1">e7ca4a824fd06300a91770f24210c730</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Roundtable Reporter">e7ca4a824fd06300a91770f24210c730</sys_scope>
+        <sys_update_name>sys_ui_policy_db92fe9a4f5c6300a91770f24210c773</sys_update_name>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2018-09-04 17:39:16</sys_updated_on>
+        <table>x_snc_roundtable_1_event</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

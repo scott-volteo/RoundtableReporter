@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Load Reporter</name>
+        <run_as display_value="Tom Cullen">c51797fd13d12a001cdf5aef3244b0f3</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2018-09-04 21:25:51</run_start>
+        <run_time>1970-01-01 05:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <script><![CDATA[var event = new GlideRecord("x_snc_roundtable_1_event");
+event.addQuery("sys_id", "9ed51e4a4fd06300a91770f24210c71d");
+event.query();
+event.next();
+//use the event sys_id to loop through the agenda items
+var agenda = new GlideRecord("x_snc_roundtable_1_agenda_item");
+agenda.addQuery("event", event.sys_id);
+agenda.query();
+var count = 0;
+while (agenda.next()) {
+	//for each agenda item .. get all the sys_journal_fields
+	//in this application, roundtable dialog is tracked here
+	//  count++;
+	var dialog = new GlideRecord("sys_journal_field");
+	dialog.addQuery("element_id", agenda.sys_id);
+	dialog.query();
+	while (dialog.next()) {
+		//write the report records
+		var report = new GlideRecord("x_snc_roundtable_1_reporter");
+		report.initialize();
+		report.event = event.sys_id;
+		report.agenda_item = agenda.sys_id;
+		report.sj_created = dialog.sys_created_on;
+		report.sj_created_by = dialog.sys_created_by;
+		report.sj_element_id = dialog.element_id;
+		report.sj_element = dialog.element;
+		report.sj_name = dialog.name;
+		report.sj_value = dialog.value;
+		report.insert();
+		count++;
+		
+	}
+}
+	gs.info(count + ' report records written');]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>tom.cullen</sys_created_by>
+        <sys_created_on>2018-09-04 21:27:49</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>38a6ef9a4fdc6300a91770f24210c7cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Load Reporter</sys_name>
+        <sys_package display_value="Roundtable Reporter" source="x_snc_roundtable_1">e7ca4a824fd06300a91770f24210c730</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Roundtable Reporter">e7ca4a824fd06300a91770f24210c730</sys_scope>
+        <sys_update_name>sysauto_script_38a6ef9a4fdc6300a91770f24210c7cb</sys_update_name>
+        <sys_updated_by>tom.cullen</sys_updated_by>
+        <sys_updated_on>2018-09-04 21:27:49</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

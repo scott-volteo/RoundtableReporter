@@ -113,6 +113,20 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>freeze</element>
+            <position>8</position>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-09-04 18:11:13</sys_created_on>
+            <sys_id>fd1afade4f5c6300a91770f24210c72a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_roundtable_1_agenda_item" sys_domain="global" view="Default view">45d75e8a4fd06300a91770f24210c70c</sys_ui_section>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-09-04 18:11:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

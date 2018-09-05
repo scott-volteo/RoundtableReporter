@@ -25,7 +25,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_snc_roundtable_1_agenda_item" name="x_snc_roundtable_1_agenda_item" sys_domain="global" view="Default view">6e099aca4fd06300a91770f24210c732</sys_ui_form>
-            <sys_ui_section caption="Discusson" display_value="Discusson" name="x_snc_roundtable_1_agenda_item" sys_domain="global" view="Default view">cd1886124f1c6300a91770f24210c779</sys_ui_section>
+            <sys_ui_section caption="Discussion" display_value="Discussion" name="x_snc_roundtable_1_agenda_item" sys_domain="global" view="Default view">cd1886124f1c6300a91770f24210c779</sys_ui_section>
             <sys_updated_by>tom.cullen</sys_updated_by>
             <sys_updated_on>2018-09-04 14:32:42</sys_updated_on>
         </sys_ui_form_section>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Reporter" max_length="40" name="x_snc_roundtable_1_reporter" type="collection">
+        <element label="Agenda item" max_length="32" name="agenda_item" reference="x_snc_roundtable_1_agenda_item" type="reference"/>
+        <element label="Event" max_length="32" name="event" reference="x_snc_roundtable_1_event" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="SJ created" max_length="40" name="sj_created" type="glide_date_time"/>
+        <element label="SJ created by" max_length="40" name="sj_created_by" type="string"/>
+        <element label="SJ element" max_length="40" name="sj_element" type="string"/>
+        <element label="SJ element id" max_length="32" name="sj_element_id" type="document_id"/>
+        <element label="SJ name" max_length="40" name="sj_name" type="string"/>
+        <element label="SJ value" max_length="3000" name="sj_value" type="string"/>
+        <index name="index">
+            <element name="agenda_item"/>
+        </index>
+        <index name="index2">
+            <element name="sj_element_id"/>
+        </index>
+        <index name="index3">
+            <element name="event"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_snc_roundtable_1_reporter" version="2" view="RPTa9a8271e4fdc6300a91770f24210c75a">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>agenda_item</element>
+            <list_id display_value="x_snc_roundtable_1_reporter" element="NULL" name="x_snc_roundtable_1_reporter" parent="NULL" relationship="NULL" sys_domain="global" view="eda8671e4fdc6300a91770f24210c70e">618422264f94a300a91770f24210c791</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-09-05 11:15:27</sys_created_on>
+            <sys_id>e58422264f94a300a91770f24210c791</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-09-05 11:15:27</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sj_created</element>
+            <list_id display_value="x_snc_roundtable_1_reporter" element="NULL" name="x_snc_roundtable_1_reporter" parent="NULL" relationship="NULL" sys_domain="global" view="eda8671e4fdc6300a91770f24210c70e">618422264f94a300a91770f24210c791</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-09-05 11:15:27</sys_created_on>
+            <sys_id>698422264f94a300a91770f24210c791</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-09-05 11:15:27</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sj_created_by</element>
+            <list_id display_value="x_snc_roundtable_1_reporter" element="NULL" name="x_snc_roundtable_1_reporter" parent="NULL" relationship="NULL" sys_domain="global" view="eda8671e4fdc6300a91770f24210c70e">618422264f94a300a91770f24210c791</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-09-05 11:15:27</sys_created_on>
+            <sys_id>e98422264f94a300a91770f24210c791</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-09-05 11:15:27</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sj_value</element>
+            <list_id display_value="x_snc_roundtable_1_reporter" element="NULL" name="x_snc_roundtable_1_reporter" parent="NULL" relationship="NULL" sys_domain="global" view="eda8671e4fdc6300a91770f24210c70e">618422264f94a300a91770f24210c791</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-09-05 11:15:27</sys_created_on>
+            <sys_id>6d8422264f94a300a91770f24210c791</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-09-05 11:15:27</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_snc_roundtable_1_reporter</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>tom.cullen</sys_created_by>
+            <sys_created_on>2018-09-05 11:15:27</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>618422264f94a300a91770f24210c791</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_roundtable_1_reporter</sys_name>
+            <sys_package display_value="Roundtable Reporter" source="x_snc_roundtable_1">e7ca4a824fd06300a91770f24210c730</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Roundtable Reporter">e7ca4a824fd06300a91770f24210c730</sys_scope>
+            <sys_update_name>sys_ui_list_x_snc_roundtable_1_reporter_RPTa9a8271e4fdc6300a91770f24210c75a</sys_update_name>
+            <sys_updated_by>tom.cullen</sys_updated_by>
+            <sys_updated_on>2018-09-05 11:15:27</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpta9a8271e4fdc6300a91770f24210c75a" name="RPTa9a8271e4fdc6300a91770f24210c75a">eda8671e4fdc6300a91770f24210c70e</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

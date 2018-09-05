@@ -39,7 +39,7 @@
         <name>x_snc_roundtable_1_event</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -56,7 +56,7 @@
         <sys_created_on>2018-09-03 20:16:05</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>09ea4a824fd06300a91770f24210c7ea</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Topic</sys_name>
         <sys_package display_value="Roundtable Reporter" source="x_snc_roundtable_1">e7ca4a824fd06300a91770f24210c730</sys_package>
         <sys_policy/>
@@ -64,7 +64,7 @@
         <sys_scope display_value="Roundtable Reporter">e7ca4a824fd06300a91770f24210c730</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_roundtable_1_event_topic</sys_update_name>
         <sys_updated_by>tom.cullen</sys_updated_by>
-        <sys_updated_on>2018-09-03 21:06:58</sys_updated_on>
+        <sys_updated_on>2018-09-04 17:04:37</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
